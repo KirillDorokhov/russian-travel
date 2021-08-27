@@ -5,7 +5,9 @@
 * HTML
 * CSS
 * Figma
-
+## Ссылка на страницу GitHub Pages 
+  https://kirilldorokhov.github.io/russian-travel/
+  
 ### Установка
 1. Скачать архив проекта их репозитория
 2. Открыть файл index.html в браузере (корректное отображение сайта гарантируется в последних версиях браузеров Chrome, Opera, FireFox)
