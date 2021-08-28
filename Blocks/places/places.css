@@ -4,11 +4,6 @@
   margin: 0 auto;
   font-size: 16px;
 }
-/*@media screen and (max-width: 1024px) {
-  .places {
-    width: calc(100vw - 96px);
-  }
-}*/
   
 @media screen and (max-width: 768px) {
   .places {
