@@ -2,17 +2,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 28px 48px 0;
+  padding: 28px 48px 56px;
   align-items: center;
   max-width: 1184px;
-  min-height: 52px;
+  max-height: 52px;
   margin: 0 auto;
   background-color: #2A2C2F;
 }
 
+@media screen and (max-width: 1024px){
+  .header{
+    padding: 28px 48px 48px; 
+  }
+}
+
 @media screen and (max-width: 768px){
   .header{
-    padding: 28px 24px 0; 
+    padding: 28px 6px 48px 24px; 
   }
 }
 
@@ -24,6 +30,7 @@
 
 @media screen and (max-width: 320px){
   .header{
-    padding-left: 16px;
+    padding: 16px 16px 0;
+    max-height: 42px;
   }
 }
