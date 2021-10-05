@@ -11,14 +11,9 @@
   z-index: 2;
 }
 
-.cover__subtitle:hover ~ .cover__background{
-  opacity: .8;
-}
-
 @media screen and (max-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
-   /* margin: 32px auto 115px auto;*/
     margin:32px auto 0;
   }
 }

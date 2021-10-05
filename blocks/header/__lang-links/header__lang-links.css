@@ -8,13 +8,6 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 1024px) {
-  .header__lang-links {
-    /*max-width: 1024px;*/
-    max-height: 640px;
-  }
-}
-
 @media screen and (max-width: 580px) {
   .header__lang-links {
     min-height: 42px;
@@ -23,7 +16,7 @@
 
 @media screen and (max-width: 320px) {
   .header__lang-links {
-    margin-top: 30px;
-    
+    margin: 0;
+    align-items: center; 
   }
 }

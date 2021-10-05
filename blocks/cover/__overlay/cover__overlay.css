@@ -27,9 +27,12 @@
   content: "";
 }
 
+.cover__overlay:hover::after {
+  opacity: .8;
+}
+
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    /*max-width: 1024px;*/
     min-height: 640px;
     padding: 195px 0;
   }
@@ -37,7 +40,6 @@
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    /*max-width: 1024px;*/
     min-height: 480px;
     padding: 115px 0;
   }

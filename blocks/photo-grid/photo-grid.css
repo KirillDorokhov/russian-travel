@@ -1,6 +1,6 @@
 .photo-grid {
   margin: 0 auto;
-  padding-top: 92px;
+  padding-top: 64px;
   display: grid;
   max-width: 1184px;
   width: calc(100vw - 96px);
